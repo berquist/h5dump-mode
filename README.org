@@ -1,0 +1,8 @@
+* h5dump-mode
+
+Emacs major mode for navigating h5dump output
+
+** Features
+
+- Syntax highlighting via font lock
+- [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Hideshow.html][hideshow]] (=hs-minor-mode=) support
