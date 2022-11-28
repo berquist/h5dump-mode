@@ -4,7 +4,6 @@
 
 ;; Author: Eric Berquist
 ;; Version: 0.1.0
-;; Package-Version: 0.1.0
 ;; Created: 2022-11-25
 ;; Package-Requires: ((emacs "25.1"))
 ;; Keywords: languages hdf5
@@ -44,7 +43,8 @@
 
 ;;; Code:
 
-(require 'rx)
+(eval-when-compile
+  (require 'rx))
 
 (defgroup h5dump nil
   "Major mode for navigating files with h5dump output."

@@ -1,5 +1,7 @@
 * h5dump-mode
 
+[[http://melpa.org/#/h5dump-mode][file:http://melpa.org/packages/h5dump-mode-badge.svg]]
+
 Emacs major mode for navigating h5dump output
 
 ** Features
